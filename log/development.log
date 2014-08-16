@@ -11316,3 +11316,3936 @@ Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:00:11 -06
 
 
 Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:00:11 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:09:35 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/auth/twitter/callback?oauth_token=YqkzkPbrDV7eQ9Wcbmxzlbzrz1sL5N2p&oauth_verifier=PGDvSwGnXPpt542lkh7SbPbz17AUKagz" for 127.0.0.1 at 2014-08-16 16:09:52 -0600
+
+ActionController::RoutingError (No route matches [GET] "/auth/twitter/callback"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.6ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (18.8ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.5ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:11:21 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:11:22 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=6NVZZ8j30Brrxf3CDywm1UuCoqTzcGrc&oauth_verifier=popfNWLYc5IU4pCwmUxeVVJVBabyyjtZ" for 127.0.0.1 at 2014-08-16 16:11:25 -0600
+
+ActionController::RoutingError (uninitialized constant SessionsController):
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.1) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:404:in `call_app!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:362:in `callback_phase'
+  omniauth-oauth (1.0.1) lib/omniauth/strategies/oauth.rb:58:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.1ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:12:25 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:12:26 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=iQqQTyYLP4q9TaJmEtMyS43j5NuDw7H8&oauth_verifier=g3yz4OcEsrKwTMH5ekrprtg2DL18K8H5" for 127.0.0.1 at 2014-08-16 16:12:29 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"iQqQTyYLP4q9TaJmEtMyS43j5NuDw7H8", "oauth_verifier"=>"g3yz4OcEsrKwTMH5ekrprtg2DL18K8H5", "provider"=>"twitter"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 37ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20140816221325)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140816221325"]]
+  [1m[36m (5.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:18:03 -0600
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:18:04 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=Qiobnzj46srvuQxDygNDQwPzqKFh3zmq&oauth_verifier=BlwfnG2SrLSo9RNzu7QIEWZaa5snW2RD" for 127.0.0.1 at 2014-08-16 16:18:06 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"Qiobnzj46srvuQxDygNDQwPzqKFh3zmq", "oauth_verifier"=>"BlwfnG2SrLSo9RNzu7QIEWZaa5snW2RD", "provider"=>"twitter"}
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `find_or_create_by_auth' for #<Class:0x00000104de1228>):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.5ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:19:00 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:19:01 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=0yJuPHz4pZBczfRkkCuPAct5hL3AV8Gj&oauth_verifier=3xdekFkFZaFm4RiePHgje8QbMPLpAZWQ" for 127.0.0.1 at 2014-08-16 16:19:05 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"0yJuPHz4pZBczfRkkCuPAct5hL3AV8Gj", "oauth_verifier"=>"3xdekFkFZaFm4RiePHgje8QbMPLpAZWQ", "provider"=>"twitter"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `find_or_create_by_auth' for #<Class:0x00000106e10530>):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.7ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:22:20 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=dRg3Ph6j065zHQLYlmxP7SEerRUXYAFi&oauth_verifier=X6eEfAiNyqxdeOscp2xkOgcVuZ0UcZ5n" for 127.0.0.1 at 2014-08-16 16:22:26 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"dRg3Ph6j065zHQLYlmxP7SEerRUXYAFi", "oauth_verifier"=>"X6eEfAiNyqxdeOscp2xkOgcVuZ0UcZ5n", "provider"=>"twitter"}
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `find_or_create_by_auth' for #<Class:0x0000010698e480>):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 16:23:07 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (0.8ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:23:10 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:23:11 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=2wu5ReHzQntSgvfKMirUZ5KoIywzzkMF&oauth_verifier=BCHVW0oCgX18x1Twk5xmLlBDVcAsYypy" for 127.0.0.1 at 2014-08-16 16:23:13 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"2wu5ReHzQntSgvfKMirUZ5KoIywzzkMF", "oauth_verifier"=>"BCHVW0oCgX18x1Twk5xmLlBDVcAsYypy", "provider"=>"twitter"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `find_or_create_by_provider_and_uid' for #<Class:0x000001017c6b70>):
+  app/models/user.rb:4:in `find_or_create_by_auth'
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=2wu5ReHzQntSgvfKMirUZ5KoIywzzkMF&oauth_verifier=BCHVW0oCgX18x1Twk5xmLlBDVcAsYypy" for 127.0.0.1 at 2014-08-16 16:24:04 -0600
+
+Net::HTTPFatalError (500 "Internal Server Error"):
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/net/http/response.rb:119:in `error!'
+  oauth (0.4.7) lib/oauth/consumer.rb:218:in `token_request'
+  oauth (0.4.7) lib/oauth/tokens/request_token.rb:18:in `get_access_token'
+  omniauth-oauth (1.0.1) lib/omniauth/strategies/oauth.rb:57:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.6ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:24:13 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:24:13 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=EsWBR8ZrQ7e5BwBrHx2MMR6Jh37niQWT&oauth_verifier=C8oGd2vkY2C228isW3dRNIHfYAvwtLEh" for 127.0.0.1 at 2014-08-16 16:24:15 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"EsWBR8ZrQ7e5BwBrHx2MMR6Jh37niQWT", "oauth_verifier"=>"C8oGd2vkY2C228isW3dRNIHfYAvwtLEh", "provider"=>"twitter"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "name", "provider", "uid", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:24:16.626522"], ["name", "Cullen"], ["provider", "twitter"], ["uid", "2299909334"], ["updated_at", "2014-08-16 22:24:16.626522"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 71ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (52.1ms)
+Completed 200 OK in 103ms (Views: 99.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:24:16 -0600
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:27:05 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (10.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined local variable or method `logout_path' for #<#<Class:0x00000106a64170>:0x00000106a5f648>):
+    17:     <div id="account">
+    18:       <% if current_user %>
+    19:         <span>Welcome, <%= current_user.name %></span>
+    20:         <%= link_to "logout", logout_path, id: "login" %>
+    21:       <% else %>
+    22:         <%= link_to "login", login_path, id: "logout" %>
+    23:       <% end %>
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___4530261653041362349_2203238040'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (15.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 30ms (Views: 26.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:29:05 -0600
+
+
+Started GET "/logout" for 127.0.0.1 at 2014-08-16 16:29:54 -0600
+
+AbstractController::ActionNotFound (The action 'destroy' could not be found for SessionsController):
+  actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2014-08-16 16:29:54 -0600
+
+AbstractController::ActionNotFound (The action 'destroy' could not be found for SessionsController):
+  actionpack (4.1.1) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.1) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.1) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/cullenjett/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:30:54 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (11.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 25ms (Views: 21.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:30:55 -0600
+
+
+Started GET "/logout" for 127.0.0.1 at 2014-08-16 16:30:56 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to 
+Completed 500 Internal Server Error in 12ms
+
+NoMethodError (undefined method `root_path_url' for #<SessionsController:0x0000010389e6b8>):
+  app/controllers/sessions_controller.rb:10:in `destroy'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.9ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2014-08-16 16:30:56 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to 
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `root_path_url' for #<SessionsController:0x00000101a01ef8>):
+  app/controllers/sessions_controller.rb:10:in `destroy'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (11.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 24ms (Views: 21.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:31:12 -0600
+
+
+Started GET "/logout" for 127.0.0.1 at 2014-08-16 16:31:13 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 16:31:13 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:31:16 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:31:16 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:31:17 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:31:17 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=bSeE48Ax9ecdI1jgPgfWqpdHiBwQJVQp&oauth_verifier=NJwrr9kVxl6ohicAigpzbGlnxbTo0XDs" for 127.0.0.1 at 2014-08-16 16:31:20 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"bSeE48Ax9ecdI1jgPgfWqpdHiBwQJVQp", "oauth_verifier"=>"NJwrr9kVxl6ohicAigpzbGlnxbTo0XDs", "provider"=>"twitter"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1
+Redirected to http://localhost:3000/products
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (6.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:31:21 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (10.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:35:26 -0600
+
+
+Started GET "/logout" for 127.0.0.1 at 2014-08-16 16:35:28 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 16:35:28 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.2ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 19ms (Views: 11.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:33 -0600
+
+
+Started DELETE "/orders/2" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "id"=>"2"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mOrderItem Load (0.2ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 2]]
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "order_items" WHERE "order_items"."id" = ?  [["id", 18]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "order_items" WHERE "order_items"."id" = ?[0m  [["id", 19]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "orders" WHERE "orders"."id" = ?  [["id", 2]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 57ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:35:36 -0600
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:39 -0600
+
+
+Started GET "/order_items" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+Processing by OrderItemsController#index as HTML
+  [1m[35mOrderItem Load (0.2ms)[0m  SELECT "order_items".* FROM "order_items"
+  Rendered order_items/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:41 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 16:35:46 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:35:47 -0600
+
+
+Started POST "/order_items?product_id=1" for 127.0.0.1 at 2014-08-16 16:35:49 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "product_id"=>"1"}
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "orders" ("created_at", "id", "status", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-08-16 22:35:49.947624"], ["id", 2], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:35:49.947624"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrderItem Load (0.2ms)[0m  SELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 1 LIMIT 1  [["order_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:35:49.954278"], ["order_id", 2], ["product_id", 1], ["quantity", 1], ["updated_at", "2014-08-16 22:35:49.954278"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 14ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/orders/2" for 127.0.0.1 at 2014-08-16 16:35:49 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 2]]
+  [1m[35mOrderItem Load (0.1ms)[0m  SELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 2]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:35:50 -0600
+
+
+Started POST "/order_items?product_id=3" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "product_id"=>"3"}
+  [1m[35mOrder Load (0.4ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" IS NULL LIMIT 1
+  [1m[36mOrderItem Load (0.2ms)[0m  [1mSELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 3 LIMIT 1[0m  [["order_id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-16 22:35:53.120310"], ["order_id", 2], ["product_id", 3], ["quantity", 1], ["updated_at", "2014-08-16 22:35:53.120310"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 8ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/orders/2" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 2]]
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 2]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered orders/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:35:53 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:35:56 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:35:56 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:35:57 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:35:57 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=Sr0h3Nrgz7rUvAdCNR16if6QqIZEwCU0&oauth_verifier=B4vdir3om9CjM9qAe28ixOeRKxg4IuEr" for 127.0.0.1 at 2014-08-16 16:36:00 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"Sr0h3Nrgz7rUvAdCNR16if6QqIZEwCU0", "oauth_verifier"=>"B4vdir3om9CjM9qAe28ixOeRKxg4IuEr", "provider"=>"twitter"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1
+Completed 500 Internal Server Error in 8ms
+
+NameError (undefined local variable or method `load_order' for #<SessionsController:0x0000010684b0f0>):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.1ms)
+
+
+Started GET "/auth/twitter/callback?oauth_token=Sr0h3Nrgz7rUvAdCNR16if6QqIZEwCU0&oauth_verifier=B4vdir3om9CjM9qAe28ixOeRKxg4IuEr" for 127.0.0.1 at 2014-08-16 16:36:35 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"Sr0h3Nrgz7rUvAdCNR16if6QqIZEwCU0", "oauth_verifier"=>"B4vdir3om9CjM9qAe28ixOeRKxg4IuEr", "provider"=>"twitter"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1[0m
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:36:36.459225"], ["id", 2], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:36:36.459225"], ["user_id", 1]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 13ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)):
+  app/controllers/application_controller.rb:17:in `load_order'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.4ms)
+
+
+Started GET "/auth/twitter/" for 127.0.0.1 at 2014-08-16 16:36:41 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=tLUdrnQscDT188yvL4lyYBA0uKeecdCR&oauth_verifier=or3eoQqx6FkBC95LEGLXNTglUAdlcEST" for 127.0.0.1 at 2014-08-16 16:36:43 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"tLUdrnQscDT188yvL4lyYBA0uKeecdCR", "oauth_verifier"=>"or3eoQqx6FkBC95LEGLXNTglUAdlcEST", "provider"=>"twitter"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-16 22:36:44.476473"], ["id", 2], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:36:44.476473"], ["user_id", 1]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)):
+  app/controllers/application_controller.rb:17:in `load_order'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-08-16 16:36:59 -0600
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:00 -0600
+
+
+Started DELETE "/orders/2" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "id"=>"2"}
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mOrderItem Load (0.2ms)[0m  SELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 2]]
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "order_items" WHERE "order_items"."id" = ?[0m  [["id", 21]]
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "order_items" WHERE "order_items"."id" = ?  [["id", 22]]
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/products
+Completed 302 Found in 17ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:37:03 -0600
+
+
+Started POST "/order_items?product_id=1" for 127.0.0.1 at 2014-08-16 16:37:04 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "product_id"=>"1"}
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" IS NULL LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "orders" ("created_at", "id", "status", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-08-16 22:37:04.968215"], ["id", 2], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:37:04.968215"]]
+  [1m[36m (62.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrderItem Load (0.4ms)[0m  SELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 1 LIMIT 1  [["order_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:37:05.035683"], ["order_id", 2], ["product_id", 1], ["quantity", 1], ["updated_at", "2014-08-16 22:37:05.035683"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 74ms (ActiveRecord: 64.6ms)
+
+
+Started GET "/orders/2" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 2]]
+  [1m[35mOrderItem Load (0.1ms)[0m  SELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 2]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:37:05 -0600
+
+
+Started POST "/order_items?product_id=3" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "product_id"=>"3"}
+  [1m[35mOrder Load (0.3ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" IS NULL LIMIT 1
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 3 LIMIT 1[0m  [["order_id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-16 22:37:07.367144"], ["order_id", 2], ["product_id", 3], ["quantity", 1], ["updated_at", "2014-08-16 22:37:07.367144"]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 8ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/orders/2" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 2]]
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 2]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered orders/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:37:07 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:37:08 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:37:08 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:37:09 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:37:09 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=7BAbY1bPLHzUPJgONukz9hCynNJpZHoQ&oauth_verifier=pNulupTvV2JAZIEgyootv0ORoyzwcZRh" for 127.0.0.1 at 2014-08-16 16:37:11 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"7BAbY1bPLHzUPJgONukz9hCynNJpZHoQ", "oauth_verifier"=>"pNulupTvV2JAZIEgyootv0ORoyzwcZRh", "provider"=>"twitter"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-16 22:37:12.149768"], ["id", 2], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:37:12.149768"], ["user_id", 1]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)):
+  app/controllers/application_controller.rb:17:in `load_order'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mSQL (2.6ms)[0m  DELETE FROM "users"
+  [1m[36mOrder Load (0.3ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mOrderItem Load (0.2ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 2]]
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "order_items" WHERE "order_items"."id" = ?  [["id", 23]]
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "order_items" WHERE "order_items"."id" = ?[0m  [["id", 24]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "orders" WHERE "orders"."id" = ?  [["id", 2]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrderItem Load (0.5ms)[0m  SELECT "order_items".* FROM "order_items"
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 16:38:43 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:38:44 -0600
+
+
+Started POST "/order_items?product_id=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "product_id"=>"1"}
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "orders" ("created_at", "id", "status", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-08-16 22:39:01.388144"], ["id", 2], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:39:01.388144"]]
+  [1m[36m (23.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrderItem Load (0.2ms)[0m  SELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 1 LIMIT 1  [["order_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:39:01.426531"], ["order_id", 2], ["product_id", 1], ["quantity", 1], ["updated_at", "2014-08-16 22:39:01.426531"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 52ms (ActiveRecord: 26.3ms)
+
+
+Started GET "/orders/2" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 2]]
+  [1m[35mOrderItem Load (0.1ms)[0m  SELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 2]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:39:01 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:39:11 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:39:11 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:39:11 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:39:11 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=GIX4TDKZLdjlkJdRJJXwKVKC3w2L65SE&oauth_verifier=QAWfltkTQKaIVsehOFaspRkhJqZ6EGRD" for 127.0.0.1 at 2014-08-16 16:39:13 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"GIX4TDKZLdjlkJdRJJXwKVKC3w2L65SE", "oauth_verifier"=>"QAWfltkTQKaIVsehOFaspRkhJqZ6EGRD", "provider"=>"twitter"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "name", "provider", "uid", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:39:14.516440"], ["name", "Cullen"], ["provider", "twitter"], ["uid", "2299909334"], ["updated_at", "2014-08-16 22:39:14.516440"]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:39:14.521570"], ["id", 2], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:39:14.521570"], ["user_id", 2]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 12ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)):
+  app/controllers/application_controller.rb:17:in `load_order'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 16:40:17 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:40:18 -0600
+
+
+Started POST "/order_items?product_id=2" for 127.0.0.1 at 2014-08-16 16:40:22 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "product_id"=>"2"}
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `find_or_initialize_by_id' for #<Class:0x000001068496d8>):
+  app/controllers/application_controller.rb:14:in `load_order'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.6ms)
+
+
+Started POST "/order_items?product_id=2" for 127.0.0.1 at 2014-08-16 16:42:39 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "product_id"=>"2"}
+Completed 500 Internal Server Error in 12ms
+
+NoMethodError (undefined method `first_or_initialize_by' for #<Class:0x0000010111afb0>):
+  app/controllers/application_controller.rb:14:in `load_order'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started POST "/order_items?product_id=2" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "product_id"=>"2"}
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" IS NULL LIMIT 1[0m
+  [1m[35mOrderItem Load (0.2ms)[0m  SELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 2 LIMIT 1  [["order_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:42:53.543974"], ["order_id", 2], ["product_id", 2], ["quantity", 1], ["updated_at", "2014-08-16 22:42:53.543974"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 22ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/orders/2" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 2]]
+  [1m[35mOrderItem Load (0.1ms)[0m  SELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 2]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered orders/show.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 24ms (Views: 21.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:42:53 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:42:58 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:42:58 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:42:59 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:42:59 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=WF4S5MHor9B2aOL1fYzWv9utmnz0gNQQ&oauth_verifier=z6eLAlzRGZHVY9mUR69s3qkdgiw0RZpN" for 127.0.0.1 at 2014-08-16 16:43:01 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"WF4S5MHor9B2aOL1fYzWv9utmnz0gNQQ", "oauth_verifier"=>"z6eLAlzRGZHVY9mUR69s3qkdgiw0RZpN", "provider"=>"twitter"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1[0m
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:43:02.452336"], ["id", 2], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:43:02.452336"], ["user_id", 2]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 6ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)):
+  app/controllers/application_controller.rb:17:in `load_order'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.4ms)
+
+
+Started POST "/order_items?product_id=3" for 127.0.0.1 at 2014-08-16 16:43:50 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"tPpNmbpJLXTuSjBivkUMTYXtiLfNZWfgJlHufg0Bsx4=", "product_id"=>"3"}
+  [1m[35mOrder Load (0.3ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" IS NULL LIMIT 1
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 3 LIMIT 1[0m  [["order_id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-16 22:43:51.009529"], ["order_id", 2], ["product_id", 3], ["quantity", 1], ["updated_at", "2014-08-16 22:43:51.009529"]]
+  [1m[35m (2.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 25ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/orders/2" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 2]]
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 2]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered orders/show.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:43:51 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:43:53 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:43:53 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:43:53 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:43:53 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=gmeIxcJbpMYiTwZMkJ9DJ49JITZX169V&oauth_verifier=CiAlbO9AhhC2UttaRFoNlwe3CACRZI4t" for 127.0.0.1 at 2014-08-16 16:43:56 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"gmeIxcJbpMYiTwZMkJ9DJ49JITZX169V", "oauth_verifier"=>"CiAlbO9AhhC2UttaRFoNlwe3CACRZI4t", "provider"=>"twitter"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1[0m
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 2 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" = 2 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:43:57.215144"], ["id", 2], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:43:57.215144"], ["user_id", 2]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 6ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)):
+  app/controllers/application_controller.rb:17:in `load_order'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 139ms (Views: 128.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:44:48 -0600
+
+
+Started POST "/order_items?product_id=4" for 127.0.0.1 at 2014-08-16 16:44:52 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"57w8Kcog/ON7iiOQ4aUJrDucRnmxnbeto8Wcx5hieCc=", "product_id"=>"4"}
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" IS NULL AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "orders" ("created_at", "status", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-08-16 22:44:52.838085"], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:44:52.838085"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 4 LIMIT 1[0m  [["order_id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-16 22:44:52.862989"], ["order_id", 3], ["product_id", 4], ["quantity", 1], ["updated_at", "2014-08-16 22:44:52.862989"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/orders/3
+Completed 302 Found in 114ms (ActiveRecord: 4.6ms)
+
+
+Started GET "/orders/3" for 127.0.0.1 at 2014-08-16 16:44:52 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 3]]
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 3]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered orders/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:52 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:52 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:52 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:52 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:52 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:44:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:53 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:53 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:53 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:44:53 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:44:53 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:44:56 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:44:56 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:44:57 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:44:57 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=7uNMdXwI65zpDmbPOBmrT6jABtjHqUaj&oauth_verifier=4a4mvCyPAffIJ4xk0FwkKQ4eTHnfeyZd" for 127.0.0.1 at 2014-08-16 16:44:59 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"7uNMdXwI65zpDmbPOBmrT6jABtjHqUaj", "oauth_verifier"=>"4a4mvCyPAffIJ4xk0FwkKQ4eTHnfeyZd", "provider"=>"twitter"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1[0m
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 3 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:44:59.975927"], ["id", 3], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:44:59.975927"], ["user_id", 2]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)):
+  app/controllers/application_controller.rb:17:in `load_order'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/orders/" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.2ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:56 -0600
+
+
+Started DELETE "/orders/2" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"57w8Kcog/ON7iiOQ4aUJrDucRnmxnbeto8Wcx5hieCc=", "id"=>"2"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mOrderItem Load (0.2ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 2]]
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "order_items" WHERE "order_items"."id" = ?  [["id", 25]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "order_items" WHERE "order_items"."id" = ?[0m  [["id", 26]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "order_items" WHERE "order_items"."id" = ?  [["id", 27]]
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/products
+Completed 302 Found in 10ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:58 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:45:59 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:45:59 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:45:59 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:45:59 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:45:59 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:45:59 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:45:59 -0600
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:01 -0600
+
+
+Started DELETE "/orders/3" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"57w8Kcog/ON7iiOQ4aUJrDucRnmxnbeto8Wcx5hieCc=", "id"=>"3"}
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mOrderItem Load (0.2ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 3]]
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "order_items" WHERE "order_items"."id" = ?  [["id", 28]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/products
+Completed 302 Found in 8ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:46:04 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:46:07 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:46:07 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:46:08 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:46:08 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=RBeqkvH8aJvxBD8y89p72Ewf7jXeUsUl&oauth_verifier=jcsT5d5MKWqXZnuOXJp8gmbhGKh6mn6j" for 127.0.0.1 at 2014-08-16 16:46:10 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"RBeqkvH8aJvxBD8y89p72Ewf7jXeUsUl", "oauth_verifier"=>"jcsT5d5MKWqXZnuOXJp8gmbhGKh6mn6j", "provider"=>"twitter"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1
+  [1m[36mOrder Load (0.3ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 3 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-16 22:46:11.131643"], ["id", 3], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:46:11.131643"], ["user_id", 2]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/products
+Completed 302 Found in 11ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (11.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:46:11 -0600
+
+
+Started POST "/order_items?product_id=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"57w8Kcog/ON7iiOQ4aUJrDucRnmxnbeto8Wcx5hieCc=", "product_id"=>"1"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 3 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" = 2 LIMIT 1[0m
+  [1m[35mOrderItem Load (0.2ms)[0m  SELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 1 LIMIT 1  [["order_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:46:13.387418"], ["order_id", 3], ["product_id", 1], ["quantity", 1], ["updated_at", "2014-08-16 22:46:13.387418"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders/3
+Completed 302 Found in 9ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/orders/3" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 3]]
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 3]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (5.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:13 -0600
+
+
+Started GET "/logout" for 127.0.0.1 at 2014-08-16 16:46:18 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 16:46:18 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:46:18 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:46:18 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:46:18 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:46:18 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:46:18 -0600
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:23 -0600
+
+
+Started DELETE "/orders/3" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"57w8Kcog/ON7iiOQ4aUJrDucRnmxnbeto8Wcx5hieCc=", "id"=>"3"}
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mOrderItem Load (0.1ms)[0m  SELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 3]]
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "order_items" WHERE "order_items"."id" = ?[0m  [["id", 29]]
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "orders" WHERE "orders"."id" = ?  [["id", 3]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 7ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:46:28 -0600
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 16:46:56 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 16:46:57 -0600
+
+
+Started POST "/order_items?product_id=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"57w8Kcog/ON7iiOQ4aUJrDucRnmxnbeto8Wcx5hieCc=", "product_id"=>"1"}
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" IS NULL AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "orders" ("created_at", "status", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-08-16 22:58:10.116806"], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:58:10.116806"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrderItem Load (0.2ms)[0m  SELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 1 LIMIT 1  [["order_id", 4]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-08-16 22:58:10.123330"], ["order_id", 4], ["product_id", 1], ["quantity", 1], ["updated_at", "2014-08-16 22:58:10.123330"]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders/4
+Completed 302 Found in 13ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 4]]
+  [1m[35mOrderItem Load (0.1ms)[0m  SELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 4]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 16:58:10 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:58:12 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:58:12 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 16:58:13 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 16:58:13 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=x4Up2poDBOB031IkGbafrDgEnFtZrHuL&oauth_verifier=76bsPkTZhMPIIn6N0pHfhpUwF5QulgD0" for 127.0.0.1 at 2014-08-16 16:58:15 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"x4Up2poDBOB031IkGbafrDgEnFtZrHuL", "oauth_verifier"=>"76bsPkTZhMPIIn6N0pHfhpUwF5QulgD0", "provider"=>"twitter"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 4 AND "orders"."status" = 'unsubmitted' AND "orders"."user_id" = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-16 22:58:15.992078"], ["id", 4], ["status", "unsubmitted"], ["updated_at", "2014-08-16 22:58:15.992078"], ["user_id", 2]]
+SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 6ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: PRIMARY KEY must be unique: INSERT INTO "orders" ("created_at", "id", "status", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)):
+  app/controllers/application_controller.rb:17:in `load_order'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 17:05:27 -0600
+
+SyntaxError (/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:15: syntax error, unexpected ')', expecting keyword_end
+/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:22: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/products_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 17:05:31 -0600
+
+SyntaxError (/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:15: syntax error, unexpected ')', expecting keyword_end
+/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:22: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/products_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 17:05:33 -0600
+
+SyntaxError (/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:15: syntax error, unexpected ')', expecting keyword_end
+/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:22: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/products_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 17:05:43 -0600
+
+SyntaxError (/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:15: syntax error, unexpected ')', expecting keyword_end
+/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/products_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 17:05:44 -0600
+
+SyntaxError (/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:15: syntax error, unexpected ')', expecting keyword_end
+/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/products_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 17:05:51 -0600
+
+SyntaxError (/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:15: syntax error, unexpected ')', expecting keyword_end
+/Users/cullenjett/code/jumpstartlabs/merchant/app/controllers/application_controller.rb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/products_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 17:05:59 -0600
+
+
+Started POST "/order_items?product_id=2" for 127.0.0.1 at 2014-08-16 17:06:01 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"57w8Kcog/ON7iiOQ4aUJrDucRnmxnbeto8Wcx5hieCc=", "product_id"=>"2"}
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 4 LIMIT 1
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 2 LIMIT 1[0m  [["order_id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-16 23:06:01.875774"], ["order_id", 4], ["product_id", 2], ["quantity", 1], ["updated_at", "2014-08-16 23:06:01.875774"]]
+  [1m[35m (5.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/orders/4
+Completed 302 Found in 25ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2014-08-16 17:06:01 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 4]]
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 4]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered orders/show.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:01 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:01 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:01 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:01 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:01 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:02 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:02 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:02 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:02 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:02 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:06:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:02 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:06:02 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 17:06:04 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 17:06:04 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 17:06:05 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 17:06:05 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=SyDzartwWKX1btusQhNZz2uwvrzPsdzA&oauth_verifier=tgeZbpU4g0oAB677arwRUHSfIrjYHcLA" for 127.0.0.1 at 2014-08-16 17:06:07 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"SyDzartwWKX1btusQhNZz2uwvrzPsdzA", "oauth_verifier"=>"tgeZbpU4g0oAB677arwRUHSfIrjYHcLA", "provider"=>"twitter"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' AND "users"."uid" = '2299909334' AND "users"."name" = 'Cullen' LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 4 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "orders" SET "updated_at" = ?, "user_id" = ? WHERE "orders"."id" = 4[0m  [["updated_at", "2014-08-16 23:06:08.467578"], ["user_id", 2]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/products
+Completed 302 Found in 12ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (10.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 17:06:08 -0600
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:06:12 -0600
+
+
+Started GET "/orders/4" for 127.0.0.1 at 2014-08-16 17:06:15 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 4]]
+  [1m[35mOrderItem Load (0.2ms)[0m  SELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 4]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered orders/show.html.erb within layouts/application (13.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:06:15 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:06:15 -0600
+
+
+Started GET "/logout" for 127.0.0.1 at 2014-08-16 17:07:43 -0600
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-16 17:07:43 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 17:07:43 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 17:07:43 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 17:07:43 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 17:07:43 -0600
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 15ms (Views: 10.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:47 -0600
+
+
+Started DELETE "/orders/4" for 127.0.0.1 at 2014-08-16 17:07:49 -0600
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"57w8Kcog/ON7iiOQ4aUJrDucRnmxnbeto8Wcx5hieCc=", "id"=>"4"}
+  [1m[35mOrder Load (0.3ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mOrderItem Load (0.2ms)[0m  SELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 4]]
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "order_items" WHERE "order_items"."id" = ?[0m  [["id", 30]]
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "order_items" WHERE "order_items"."id" = ?  [["id", 31]]
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "orders" WHERE "orders"."id" = ?[0m  [["id", 4]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/products
+Completed 302 Found in 19ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 17:07:49 -0600
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:49 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:49 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:49 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:49 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 17:07:50 -0600
+
+
+Started POST "/order_items?product_id=1" for 127.0.0.1 at 2014-08-16 17:07:51 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"57w8Kcog/ON7iiOQ4aUJrDucRnmxnbeto8Wcx5hieCc=", "product_id"=>"1"}
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" IS NULL LIMIT 1
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `create_with' for #<Order:0x00000106fd7cb0>):
+  app/controllers/application_controller.rb:14:in `load_order'
+
+
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/cullenjett/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.3ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:56 -0600
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 17:08:59 -0600
+
+
+Started POST "/order_items?product_id=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+Processing by OrderItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"57w8Kcog/ON7iiOQ4aUJrDucRnmxnbeto8Wcx5hieCc=", "product_id"=>"1"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "orders" ("created_at", "status", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-08-16 23:09:01.693413"], ["status", "unsubmitted"], ["updated_at", "2014-08-16 23:09:01.693413"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+  [1m[36mOrderItem Load (0.2ms)[0m  [1mSELECT  "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ? AND "order_items"."product_id" = 1 LIMIT 1[0m  [["order_id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "order_items" ("created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-08-16 23:09:01.715722"], ["order_id", 5], ["product_id", 1], ["quantity", 1], ["updated_at", "2014-08-16 23:09:01.715722"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/orders/5
+Completed 302 Found in 32ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/orders/5" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 5]]
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 5]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:09:01 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 17:09:05 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 17:09:05 -0600
+
+
+Started GET "/login" for 127.0.0.1 at 2014-08-16 17:09:05 -0600
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2014-08-16 17:09:05 -0600
+
+
+Started GET "/auth/twitter/callback?oauth_token=2fcPZABYhFVvGrKkaiWz8NQ0dHp5ej5i&oauth_verifier=qKC8UFnYTuWKqWojh5srweC83KjEU3Nh" for 127.0.0.1 at 2014-08-16 17:09:08 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"2fcPZABYhFVvGrKkaiWz8NQ0dHp5ej5i", "oauth_verifier"=>"qKC8UFnYTuWKqWojh5srweC83KjEU3Nh", "provider"=>"twitter"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'twitter' LIMIT 1[0m
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = 5 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "orders" SET "updated_at" = ?, "user_id" = ? WHERE "orders"."id" = 5  [["updated_at", "2014-08-16 23:09:09.435862"], ["user_id", 2]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 10ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.erb within layouts/application (7.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/products/purple_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/products/oranges.jpg" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/products/carrots.jpg" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/products/milk.jpg" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/assets/products/eggs.jpg" for 127.0.0.1 at 2014-08-16 17:09:09 -0600
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jumpstart_styles.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/order_items.css?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/order_items.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-16 17:09:13 -0600
+
+
+Started GET "/orders/5" for 127.0.0.1 at 2014-08-16 17:09:15 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  WHERE "orders"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "order_items"  WHERE "order_items"."order_id" = ?  [["order_id", 5]]
+  [1m[36mOrderItem Load (0.1ms)[0m  [1mSELECT "order_items".* FROM "order_items"  WHERE "order_items"."order_id" = ?[0m  [["order_id", 5]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products"  WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (8.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/products/green_grapes.jpg" for 127.0.0.1 at 2014-08-16 17:09:15 -0600
